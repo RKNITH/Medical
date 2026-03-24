@@ -1,0 +1,8 @@
+/* MediCore — Global App Styles */
+/* Vite default boilerplate removed — it constrained #root to max-width:1280px
+   and text-align:center which broke the full-screen dashboard layout. */
+
+#root {
+  width: 100%;
+  height: 100%;
+}

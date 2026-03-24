@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;1,6..12,400&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+
+@theme {
+    --font-sans: 'Nunito Sans', 'Segoe UI', system-ui, sans-serif;
+    --color-primary: #0e6396;
+    --color-primary-dark: #0a4d73;
+    --color-primary-light: #dff0fb;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Nunito Sans', 'Segoe UI', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+    background: #94a3b8;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}
+
+/* Hospital-specific utility classes */
+.font-display {
+    font-family: 'Merriweather', Georgia, serif !important;
+}
+.font-body {
+    font-family: 'Nunito Sans', 'Segoe UI', system-ui, sans-serif !important;
+}
